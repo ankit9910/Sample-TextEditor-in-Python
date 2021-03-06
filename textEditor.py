@@ -23,7 +23,7 @@ def Save():
             f.close()
 
             root.title(os.path.basename(file) + " - Notepad")
-            print("File Saved")
+            print("Saved")
     else:
         f = open(file, "w")
         f.write(TextArea.get(1.0, END))
